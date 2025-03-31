@@ -1,0 +1,46 @@
+header .container-fluid {
+    display: flex;
+    flex-direction: column;
+}
+
+header .row{ /* rows are taking 100% of container-fluid*/
+    width:100%;
+}
+header .container-fluid .row:first-child{ /* settings for the first row */
+    display: flex;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+header .row:first-child img{ /* settings for logo */
+    width:8.44%;
+    margin:auto;
+}
+
+header .row:last-child { /* settings for second row */
+    display: flex;
+    justify-content: space-evenly;
+    display: flex;
+    justify-content: space-evenly;
+}
+header .row:last-child img{ /* settings icons size */
+    width:17px;
+}
+
+header ul{ /* settings for navbar spacing and alignement */
+    list-style-type: none;
+    display: flex;
+    justify-content:space-between;
+    gap: 3rem;
+}
+
+header ul a{ /* settings text style in the navbar */
+    text-decoration: none;
+    color: black;
+    font-family: "proximanova-bold";
+    font-weight: 700;
+    font-size: 1rem;
+    text-transform: uppercase;
+}
+
+

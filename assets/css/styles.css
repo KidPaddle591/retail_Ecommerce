@@ -1,0 +1,116 @@
+
+/*-----------------------Général-----------------------*/
+.container {
+    display: flex;
+    width: 100%;
+}
+
+h2{
+    font-family: "proximanova-bold", sans-serif;
+    font-size: 32px;
+    text-transform: capitalize;
+}
+
+h3{
+    font-family: "proximanova-semibold", sans-serif;
+    font-size: 1.5rem;
+    text-transform: capitalize;
+}
+/*-----------------------Section Banner-----------------------*/
+
+.banner .container-fluid .row{
+    position: relative;
+}
+
+.banner .container div:first-child img:first-child{
+    object-fit:cover;
+    width: 100%;
+}
+
+.banner .container-fluid .card{
+    top:2rem;
+    width:37.29%;
+    height: 76.4%;
+    top : 3rem;
+    left: 50rem;
+    background-color:rgb(103, 100, 100);
+}
+
+/*-----------------------Section products-----------------------*/
+
+.products .container{ /*Container settings*/
+    width: 70%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.intro{ /*Row Intro settings*/
+    margin: 5rem 0 2rem 0;
+    display: flex;
+    flex-direction: column ;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    
+}
+
+.products .row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.item {
+    position: relative;
+}
+ .image {
+    width: 100%;
+ }
+
+.black-card{
+    position: absolute;
+    bottom:0;
+}
+
+.intro p{
+    font-family: "proximanova-regular", sans serif;
+}
+
+.black-card p{
+    font-family: "proximanova-regular", sans-serif;
+    font-size: 0.8rem;
+    font-weight: 100;
+}
+
+.categories {
+    display: flex;
+    width:100%;
+    margin-bottom: 5rem;
+}
+
+/*-----------------------Section vision-----------------------*/
+.vision .row {
+    position : relative;
+    width: 100%;
+}
+
+.vision .card {
+    background-color:#F7F7F7;
+    color: black;
+    width: 52.68%;
+    top: 2rem;
+}
+
+/*-----------------------Section vision-----------------------*/
+/*-----------------------Section Solution-----------------------*/
+
+/*-----------------------Section Projects-----------------------*/
+.projects .container {
+    display: flex;
+    flex-direction: column;
+}
+
+
+/*-----------------------Section tile collections-----------------------*/
+/*-----------------------Section Showrooms-----------------------*/

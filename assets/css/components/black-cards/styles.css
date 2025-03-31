@@ -1,0 +1,11 @@
+.black-card{
+    background-color: black;
+}
+
+.black-card h3{
+    color: white;
+}
+.black-card p{
+    color: #B4B4B4;
+    bottom: 0;
+}

@@ -1,0 +1,19 @@
+.primary-button{
+    color: black;
+    background-color: white;
+    padding: 0.5rem 1rem;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-family: "proximanova-bold", sans-serif;
+    font-weight: 800;
+}
+
+.secondary-button{
+    color:white;
+    background-color: black;
+    padding: 0.5rem 1rem;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-family: "proximanova-bold", sans-serif;
+    font-weight: 800;
+}
